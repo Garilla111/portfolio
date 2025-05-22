@@ -1,12 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Karo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    
+
+<body class="bg-[var(--c-grey-1)] text-white font-[var(--font-main)]">
+    <header class="py-5">
+        <div class="container flex justify-between gap-8 items-center mx-auto max-w-[1200px]">
+            <div
+                class="font-bold text-3xl tracking-[2px] uppercase font-[K2D] bg-clip-text text-transparent bg-gradient-to-r from-[var(--c-theme-light)] to-[var(--c-theme-red)]">
+                logo</div>
+            <nav class="">
+                <ul class="flex gap-8 items-center text-[var(--c-grey-9)] whitespace-nowrap">
+                    <li class=""><a href="" class="">Home</a></li>
+                    <li class=""><a href="" class="">Services</a></li>
+                    <li class=""><a href="" class="">About me</a></li>
+                    <li class=""><a href="" class="">Portfolio</a></li>
+                    <li class=""><a href="" class="">Contact me</a></li>
+                </ul>
+            </nav>
+            <button
+                class="bg-[var(--c-theme-light)] rounded-sm py-3 px-10 whitespace-nowrap border-2 border-[var(--c-theme-light)]">Hire
+                Me</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="h-screen">
+            <div class="container h-full mx-auto py-4 flex justify-center items-start max-w-[1200px]">
+                <div class="grow-1 flex-col">
+
+                    <h3 class="text-[var(--c-grey-7)] text-xl py-2 font-semibold tracking-[1px]">Hi I am</h3>
+                    <h2 class="text-[var(--c-grey-9)] text-2xl py-2 font-bold tracking-[1px]">Karapet Akopdzhanyan</h2>
+                    <h1
+                        class="text-6xl/[1.5] py-4 inline font-black bg-clip-text text-transparent bg-gradient-to-r from-[var(--c-theme-dark)] via-[var(--c-theme-light)] to-[var(--c-theme-dark)] tracking-[1px]">
+                        Fullstack Web Developer</h1>
+                    <div class="py-2 flex gap-5">
+                        <a href=""
+                            class="rounded-full bg-white/4 border-[var(--c-grey-5)] w-10 h-10 flex text-lg justify-center items-center "><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href=""
+                            class="rounded-full bg-white/4 border-[var(--c-grey-5)] w-10 h-10 flex text-lg justify-center items-center "><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href=""
+                            class="rounded-full bg-white/4 border-[var(--c-grey-5)] w-10 h-10 flex text-lg justify-center items-center "><i
+                                class="fa-brands fa-dribbble"></i></a>
+                        <a href=""
+                            class="rounded-full bg-white/4 border-[var(--c-grey-5)] w-10 h-10 flex text-lg justify-center items-center "><i
+                                class="fa-brands fa-behance"></i></a>
+                    </div>
+                    <div class="py-10 flex gap-5">
+                        <button
+                            class="border-2  border-[var(--c-theme-light)] bg-[var(--c-theme-light)] rounded-sm py-3 px-10 whitespace-nowrap">Hire
+                            Me</button>
+                        <button
+                            class="border-2 border-[var(--c-grey-9)] text-[var(--c-grey-9)] rounded-sm py-3 px-10 whitespace-nowrap">Download
+                            CV</button>
+                    </div>
+                    <div class="bg-white/4 rounded-lg p-6 inline-flex">
+                        <div class="inline-flex flex-col pr-6 border-r border-[var(--c-grey-9)]">
+                            <span class="text-[var(--c-theme-light)] text-2xl font-extrabold">5+</span>
+                            <span class="text-[var(--c-grey-d)] text-xl font-bold">Experiences</span>
+                        </div>
+                        <div class="inline-flex flex-col px-6 border-r border-[var(--c-grey-9)]">
+                            <span class="text-[var(--c-theme-light)] w- text-2xl font-extrabold">20+</span>
+                            <span class="text-[var(--c-grey-d)] text-xl font-bold">Project done</span>
+                        </div>
+                        <div class="inline-flex flex-col pl-6">
+                            <span class="text-[var(--c-theme-light)] text-2xl font-extrabold">80+</span>
+                            <span class="text-[var(--c-grey-d)] text-xl font-bold">Happy Clients</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="inline-flex flex-col h-full justify-stretch">
+                    <div class=" w-md relative rounded-full overflow-hidden aspect-[1/1.2]">
+                        <div class="absolute w-full bg-white/4 aspect-square bottom-0 rounded-full"></div>
+                        <img src="./profile.webp" class="grayscale absolute bottom-0 left-[50%] -translate-x-[50%]">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container max-w-[1200px] text-center mx-auto flex justify-center items-center flex-col">
+
+
+                <h2 class="flex flex-wrap items-center justify-center text-4xl py-5">Services</h2>
+                <p class="max-w-md flex flex-wrap items-center justify-center text-xl py- text-[var(--c-grey-7)]">Lorem ipsum
+                    dolor sit
+                    amet consectetur. Imperdiet convallis blandit felis ligula aliquam</p>
+                <div class=" gap-10 grid grid-cols-3 py-20 ">
+                    <div class="gap-8 flex justify-center items-center flex-col  rounded-3xl p-8 bg-white/4">
+
+                        <i class="fa-solid fa-user-group text-5xl text-[var(--c-theme-light)]"></i>
+                        <span class="text-2xl text-[var(--c-theme-light)] ">App Design</span>
+                        <span class="text-xl flex text-[var(--c-grey-5)]">Lorem ipsum dolor sit amet . Imperdiet Lorem
+                            ipsum
+                            dolor sit amet consectetur</span>
+                    </div>
+                    <div class="gap-8 flex justify-center items-center flex-col  rounded-3xl p-8 bg-white/4">
+
+                        <i class="fa-solid fa-user-group text-5xl text-[var(--c-theme-light)]"></i>
+                        <span class="text-2xl text-[var(--c-theme-light)] ">App Design</span>
+                        <span class="text-xl text-[var(--c-grey-5)]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum
+                            dolor
+                            sit amet consectetur</span>
+                    </div>
+                    <div class="gap-8 flex justify-center items-center flex-col  rounded-3xl p-8 bg-white/4">
+
+                        <i class="fa-solid fa-user-group text-5xl text-[var(--c-theme-light)]"></i>
+                        <span class="text-2xl text-[var(--c-theme-light)] ">App Design</span>
+                        <span class="text-xl text-[var(--c-grey-5)]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum
+                            dolor
+                            sit amet consectetur</span>
+                    </div>
+                    <div class="gap-8 flex justify-center items-center flex-col  rounded-3xl p-8 bg-white/4">
+
+                        <i class="fa-solid fa-user-group text-5xl text-[var(--c-theme-light)]"></i>
+                        <span class="text-2xl text-[var(--c-theme-light)] ">App Design</span>
+                        <span class="text-xl text-[var(--c-grey-5)]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum
+                            dolor
+                            sit amet consectetur</span>
+                    </div>
+                    <div class="gap-8 flex justify-center items-center flex-col  rounded-3xl p-8 bg-white/4">
+
+                        <i class="fa-solid fa-user-group text-5xl text-[var(--c-theme-light)]"></i>
+                        <span class="text-2xl text-[var(--c-theme-light)] ">App Design</span>
+                        <span class="text-xl text-[var(--c-grey-5)]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum
+                            dolor
+                            sit amet consectetur</span>
+                    </div>
+                    <div class="gap-8 flex justify-center items-center flex-col  rounded-3xl p-8 bg-white/4">
+
+                        <i class="fa-solid fa-user-group text-5xl text-[var(--c-theme-light)]"></i>
+                        <span class="text-2xl text-[var(--c-theme-light)] ">App Design</span>
+                        <span class="text-xl text-[var(--c-grey-5)]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum
+                            dolor
+                            sit amet consectetur</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container max-w-[1200px] text-center mx-auto flex justify-center items-center flex-col">
+                <h2 class="flex flex-wrap items-center justify-center text-4xl py-5">About Me</h2>
+                <p class="max-w-md flex flex-wrap items-center justify-center text-xl py- text-[var(--c-grey-7)]">User Interface and User Experience and Also video editing</p>
+                <div class="flex items-center gap-25">
+                    <div class="inline-flex flex-col h-full justify-stretch">
+                        <div class=" w-sm relative overflow-hidden aspect-[1/1.4]">
+                            <div class="absolute w-full h-8/10 bg-white/4 bottom-0 rounded-t-full"></div>
+                            <img src="./profile.webp" class="grayscale absolute bottom-0 left-[50%] -translate-x-[50%]">
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-start gap-10">
+                        <p class="text-justify text-xl text-[var(--c-grey-9)]">A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. designs.In this digital atelier.</p>
+                        <button class="bg-[var(--c-theme-light)] rounded-lg px-8 py-3 "><i class="fa-solid fa-download"></i> Download CV</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>
